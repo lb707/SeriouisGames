@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.container1{
+height: 70%;
+padding: 20px 0px;
+width: 100%;
+background-color: rgb(7, 97, 223);
+align-content: center;
+text-align: center;
+}
+
+.title{
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color: rgb(255, 211, 66);
+}
+.title2{
+    padding: 40px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color:white;
+}
+
+.btn_playnow{
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(229, 229, 229);
+    font-size: 20px;
+}
+
+.btn_playnow:hover{
+    background-color:rgb(255, 211, 66) ;
+    transform: scale(1.1);
+    font-weight: bold;
+    transition:0.6s ease-in-out;
+}
+
+.fa-solid{
+    font-size: 400px;
+    position: absolute;
+    color:rgb(255, 211, 66) ;
+}
+.fa-shapes{
+    margin-left: 20%;
+}
+.fa-cubes-stacked{
+    left: 5%;
+    font-size: 350px;
+    color: rgb(255, 211, 66);
+    transform:rotate(40deg);
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    gap: 10%;
+    padding: 40px;
+}
+
+.container4, .container5{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(7, 97, 223);
+    border-radius: 50px;
+}
+.maths{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 211, 66);
+}
+
+.container4:hover, .container5:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.title3{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+}
+
+.containerWrapper {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 85, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6, .container7, .container8{
+    height: 350px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    margin-bottom: -5%;
+}
+
+.lessons{
+    position: absolute;
+    margin-top: -25%;
+    font-size: 50px;
+    color: rgb(255, 211, 66);
+}
+
+
+.container6:hover, .container7:hover, .container8:hover{
+    transform: scale(1.1 );
+    transition: ease-in-out 0.5s;
+}
